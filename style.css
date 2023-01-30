@@ -1,0 +1,49 @@
+html{
+    height: max-content; 
+}
+body{
+    height: 100%;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    /* overflow: hidden; */
+}
+#signOut {
+    position: absolute;
+    right: 1%;
+    height: 30px;
+    width: 50px;
+}
+#tableCont {
+    
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(238, 234, 229, 0.397);
+}
+
+input{
+    text-transform: capitalize;
+}
+.table {
+    text-align: center;
+}
+.form-control{
+    background-color: azure;
+}
+.buttons {
+display: flex;
+height: 50px;
+gap: 10px;
+  
+}
+.commentcell{
+    display: inline-block;
+    height: auto;
+    width: auto;
+    
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
